@@ -1,0 +1,27 @@
+﻿{% extends "header.html" %}
+
+{% block content %}
+<div>
+    <div class="tabWrapper">
+        <div class="tab" id="left">Left</div>
+        <div class="tab" id="right">Right</div>
+    </div>
+    <div style="clear:left;"></div>
+    <div class="mainwrapper">
+        
+        <div>Hey this is the logbook list view template</div>
+        <h2>Climbs:</h2>
+        <ul>
+            {% for climb in climb_list %}
+            <li>{{climb}}</li>
+            {% endfor %} <br />
+        </ul>
+        <h2>Centres</h2>
+        <ul>
+            {% for centre in centre_list %}
+            <li>{{centre}}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

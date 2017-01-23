@@ -1,0 +1,38 @@
+﻿body{
+    background-color:lightyellow;
+}
+
+li {
+    color:#b5efc8;
+}
+
+.mainwrapper{
+    background-color:#ffc1c1;
+    border-radius: 25px;
+    padding: 20px;
+    margin: auto;
+    width:1000px;    
+}
+
+.tab{
+    background-color:#ffc1c1;
+    width:100px;
+    height:40px;
+    padding-bottom:0px;
+    border-radius:15px 15px 0px 0px;
+}
+
+#left{
+    float:left;
+    background-color:#ffc1c1;
+    margin-left:33%;
+}
+#right{
+    float:right;
+    background-color:#c19696;
+    margin-right:33%;
+}
+#wrapper{
+    width:100%;
+    text-align:center;
+}
