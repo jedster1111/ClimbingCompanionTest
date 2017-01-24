@@ -36,9 +36,15 @@ li {
     width:100%;
     text-align:center;
 }
-.eyeWhite:hover {
+#eyeWhite:hover {
     fill:#ff0000;
 }
-.face:hover {
-    filter: url(#faceBlur)
+#Face:hover {
+    filter: url(#faceBlur);
+}
+
+#cssTest {
+    width:100px;
+    height:200px;
+    background-color:blue;
 }
