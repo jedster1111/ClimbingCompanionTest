@@ -54,11 +54,12 @@ MIDDLEWARE_CLASSES = [
 ]
 
 ROOT_URLCONF = 'ClimbingCompanion.urls'
-
+import os
+ROOT_PATH = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/Coding/ClimbingCompanion/ClimbingCompanion/ClimbingCompanion/templates/'],
+        'DIRS': [os.path.join(ROOT_PATH, 'templates/')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

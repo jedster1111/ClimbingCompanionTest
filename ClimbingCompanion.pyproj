@@ -4,8 +4,10 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Name>ClimbingCompanion</Name>
     <RootNamespace>ClimbingCompanion</RootNamespace>
-    <InterpreterId>{5f4daee5-daa2-44a1-95ef-169c07d05684}</InterpreterId>
-    <InterpreterVersion>3.5</InterpreterVersion>
+    <InterpreterId>
+    </InterpreterId>
+    <InterpreterVersion>
+    </InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -136,20 +138,6 @@
     <Folder Include="static\admin\js\vendor\" />
     <Folder Include="static\admin\js\vendor\jquery\" />
     <Folder Include="static\admin\js\vendor\xregexp\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Interpreter Include="..\..\..\..\virtualenvs\ClimbingCompanion\">
-      <Id>{5f4daee5-daa2-44a1-95ef-169c07d05684}</Id>
-      <BaseInterpreter>{18df7be3-23af-45d7-872d-b5caf98cc781}</BaseInterpreter>
-      <Version>3.5</Version>
-      <Description>ClimbingCompanion (Python 3.6.0)</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <LibraryPath>Lib\</LibraryPath>
-      <PathEnvironmentVariable>
-      </PathEnvironmentVariable>
-      <Architecture>X86</Architecture>
-    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
