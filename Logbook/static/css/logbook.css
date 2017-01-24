@@ -36,3 +36,9 @@ li {
     width:100%;
     text-align:center;
 }
+.eyeWhite:hover {
+    fill:#ff0000;
+}
+.face:hover {
+    filter: url(#faceBlur)
+}
