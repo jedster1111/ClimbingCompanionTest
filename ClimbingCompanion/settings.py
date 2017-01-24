@@ -58,7 +58,7 @@ ROOT_URLCONF = 'ClimbingCompanion.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Coding/ClimbingCompanion/ClimbingCompanion/ClimbingCompanion/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,6 +70,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'ClimbingCompanion.wsgi.application'
 

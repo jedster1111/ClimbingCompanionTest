@@ -49,7 +49,7 @@
   <ItemGroup>
     <Content Include="bower.json" />
     <Content Include="Logbook\static\css\logbook.css" />
-    <Content Include="Logbook\templates\header.html" />
+    <Content Include="templates\header.html" />
     <Content Include="db.sqlite3" />
     <Content Include="Logbook\templates\logbook\logbookList.html" />
     <Content Include="requirements.txt" />
@@ -124,6 +124,7 @@
     <Folder Include="Logbook\static\js\" />
     <Folder Include="Logbook\templates\" />
     <Folder Include="Logbook\templates\logbook\" />
+    <Folder Include="templates\" />
     <Folder Include="static\" />
     <Folder Include="static\admin\" />
     <Folder Include="static\admin\css\" />
