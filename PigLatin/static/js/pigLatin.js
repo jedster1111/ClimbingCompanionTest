@@ -68,6 +68,8 @@
                     console.log(j);
                     console.log(grpChar);
                     if (j == letters.length) {
+                        grpChar = letters[0];
+                        j = 1;
                         console.log("break");
                         break;                      
                     }
