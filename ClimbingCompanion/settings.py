@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['192.168.0.58',
 
 INSTALLED_APPS = [
     # Add your apps here to enable them
+    'PigLatin',
     'Logbook.apps.LogbookConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -58,6 +59,7 @@ MIDDLEWARE_CLASSES = [
 ROOT_URLCONF = 'ClimbingCompanion.urls'
 import os
 ROOT_PATH = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+PROJECT_DIR = ROOT_PATH
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -125,9 +127,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
+
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), 'var/www/static/',]
 STATIC_URL = '/static/'
 
-STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
-
-MEDIA_ROOT = '/Coding/ClimbingCompanion/ClimbingCompanion/ClimbingCompanion/media/'
+MEDIA_ROOT = [os.path.join(PROJECT_DIR, 'media')]
 MEDIA_URL = '/media/'

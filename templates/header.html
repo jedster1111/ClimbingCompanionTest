@@ -4,14 +4,20 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>
+        {% block title %} {% endblock %}
+    </title>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="{% static 'css/logbook.css' %}"
+    <link rel="stylesheet" href="{% static 'css/logbook.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/pigLatin.css' %}" />
+    <script type="text/javascript" src="{%static 'js/pigLatin.js'%}"></script>
+    
+
 
 </head>
 <body>
-    {% block content %} {% endblock %}
+    {% block body %} {% endblock %}
 </body>
 </html>

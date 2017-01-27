@@ -45,10 +45,22 @@
     <Compile Include="ClimbingCompanion\settings.py" />
     <Compile Include="ClimbingCompanion\urls.py" />
     <Compile Include="ClimbingCompanion\wsgi.py" />
+    <Compile Include="PigLatin\admin.py" />
+    <Compile Include="PigLatin\apps.py" />
+    <Compile Include="PigLatin\migrations\__init__.py" />
+    <Compile Include="PigLatin\models.py" />
+    <Compile Include="PigLatin\tests.py" />
+    <Compile Include="PigLatin\urls.py" />
+    <Compile Include="PigLatin\views.py" />
+    <Compile Include="PigLatin\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower.json" />
     <Content Include="Logbook\static\css\logbook.css" />
+    <Content Include="PigLatin\static\css\pigLatin.css" />
+    <Content Include="PigLatin\static\js\pigLatin.js" />
+    <Content Include="PigLatin\templates\index.html" />
+    <Content Include="PigLatin\templates\pigLatin\pigLatin.html" />
     <Content Include="templates\header.html" />
     <Content Include="db.sqlite3" />
     <Content Include="Logbook\templates\logbook\logbookList.html" />
@@ -124,6 +136,14 @@
     <Folder Include="Logbook\static\js\" />
     <Folder Include="Logbook\templates\" />
     <Folder Include="Logbook\templates\logbook\" />
+    <Folder Include="PigLatin\" />
+    <Folder Include="PigLatin\migrations\" />
+    <Folder Include="PigLatin\static\" />
+    <Folder Include="PigLatin\static\css\" />
+    <Folder Include="PigLatin\static\js\" />
+    <Folder Include="PigLatin\templates\" />
+    <Folder Include="PigLatin\templates\pigLatin\" />
+    <Folder Include="static\js\" />
     <Folder Include="templates\" />
     <Folder Include="static\" />
     <Folder Include="static\admin\" />

@@ -1,0 +1,17 @@
+﻿{% extends "header.html" %}
+
+{% block title %} PigLatin {% endblock %}
+
+{% block body %}
+<div style="float:left; margin:30px;">
+<form>
+    Text here: <textarea class="pigLatinInput" cols="50" rows="8" id="pigLatinInput"></textarea>
+    <input type="button" value="PigLatin!!!" id="translate" />
+
+
+    
+    <textarea readonly id="pigLatinOutput" cols="50" rows="8">Hello</textarea>
+</div>
+</form>
+
+{% endblock %}

@@ -12,8 +12,9 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^logbook', include('Logbook.urls')),
+    url(r'^logbook/', include('Logbook.urls')),
     url(r'^$', views.listView, name = 'listView'),
+    url(r'^piglatin/', include('PigLatin.urls')),
 ]
 
 if settings.DEBUG:
