@@ -9,7 +9,7 @@
         var beforeText = document.getElementById("pigLatinInput").value;
         document.getElementById("pigLatinOutput").value = pigLatin(beforeText);
     }
-
+    // switches first and last letters
     function switchFL(str) {
         //split the string into an array consiting of each individual word
         var words = str.split(" ");
@@ -36,6 +36,7 @@
         return outputText;
     }
 
+    //transform words into pig latin, doesn't react to grammar at the moment.
     function pigLatin(str) {
         console.log("pigLatin() is called")
         var words = str.split(" ");
